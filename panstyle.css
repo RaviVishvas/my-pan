@@ -1,0 +1,107 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+body {
+  background: url('panimg/top-view-photo-of-coffee-on-yellow-surface-3804047.jpg');
+  background-size: : cover;
+  background-attachment: :fixed;
+  background-repeat: no-repeat;
+}
+.lbg {
+   color: white;
+}
+.fbg{
+  margin-top: 4vh;
+  height: 448;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 7px 7px 13px rgba(0,0,0,0.75);
+padding: 10px;
+font-size: 18px;
+font-weight: 550;
+text-shadow:0.5px 0.5px 2px #000000;
+color: white;
+}
+
+.fbg-l{
+  margin-top: 4vh;
+  height: auto;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 7px 7px 13px rgba(0,0,0,0.75);
+padding: 10px;
+font-size: 18px;
+font-weight: 550;
+text-shadow:0.5px 0.5px 2px #000000;
+color: white;
+}
+
+.clbg{
+  background-color: white;
+  opacity: 0.2;
+}
+.upload {
+  margin-top: 4vh;
+  height: 5065px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 8px 9px 11px 5px rgba(0,0,0,0.75);
+padding: 11px;
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.error {
+  color: rgba(199, 13, 13);
+  font-weight: bold;
+  text-shadow: 0.4px 0.4px 3px black;
+  text-align: center;
+}
+.success {
+  color: green;
+  font-weight: bold;
+  text-shadow: 0.4px 0.4px 3px black;
+  text-align: center;
+}
+
+@media only screen and (max-width:425px){
+  body {
+    background: url('panimg/woman-holding-pink-tulips-1386604.jpg');
+    background-size: : cover;
+    background-attachment: :fixed;
+    background-repeat: no-repeat;
+  }
+
+
+}

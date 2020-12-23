@@ -1,0 +1,50 @@
+<!DOCTYPE html?>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="pan login page">
+<title>My Pan login</title>
+<meta name="viewport" content="width=device-width , initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Ravi vishvas">
+<link rel="stylesheet" href="panstyle.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container ">
+    <div class="row">
+    <div class="col-sm-3 col-md-4 lbg ">
+      <h2 style="text-shadow:0.5px 0.5px 8px #000000;"> myPan</h2>
+    </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 col-lg-3 col-sm-1"> </div>
+    <div class="col-md-8 col-lg-6 col-sm-10">
+      <form class="fbg-l" action="includes/login.php" method="POST">
+        <h2 style="margin:6px 0px 16px 7px;">login</h2>
+        <div class="form-group">
+          <label for="email"> Email</label>
+          <input style="opacity:0.10; background-color: black; color:white;" type="text" class="form-control"name="email" id="Email">
+
+        </div>
+        <div class="form-group">
+          <label for="pwd"> password</label>
+          <input style="opacity:0.10; background-color: black; color:white;" type="password" class="form-control"name="pwd" id="pwd">
+
+        </div>
+
+        <button style="margin-top:28px;" class="btn btn-success btn-block"type="submit" name="submit"> login</button>
+        <p>if you are new user <a href="pansignup.html"> Sign Up</a></p>
+
+    </form>
+
+    </div>
+    </div>
+    <div class="col-md-2 col-lg-3 col-sm-1"> </div>
+  </div>
+</body>
+</html>
